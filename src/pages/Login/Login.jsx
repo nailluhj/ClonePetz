@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Alert, KeyboardAvoidingView, Platform, ScrollView, TextInput, TouchableOpacity, View, Image, Text } from 'react-native';
 import { styles } from './styles';
 
-import logo from '../../assets/petz-removebg-preview.png'
-
    function Login() {
 
     const [email, setEmail] = useState('');
@@ -12,7 +10,6 @@ import logo from '../../assets/petz-removebg-preview.png'
 
     function handleLogin() {
         if (!email || !password) {
-            Alert.alert('Warning', 'Please, fill in email and password fields');
             return;
         }
     }
@@ -26,14 +23,15 @@ import logo from '../../assets/petz-removebg-preview.png'
             <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior="padding">
                 <ScrollView keyboardShouldPersistTaps="always">
                     <View style={styles.form}>
-                        <Image source={logo} style={styles.logo} />
+                        <Image source={require('../../assets/Petz.png')} style={styles.logo} />
 
                         <TextInput
                             style={styles.input}
-                            placeholder="Email ou CPF"
+                            placeholder="E-mail ou CPF"
                             onChangeText={text => setEmail(text)}
                             keyboardType="email-address"
                         />
+
                         <TextInput
                             style={styles.input}
                             placeholder="Senha"
@@ -57,7 +55,7 @@ import logo from '../../assets/petz-removebg-preview.png'
                         </TouchableOpacity>
 
                         <TouchableOpacity>
-                            <Text style={styles.ComeText}>Começar sem login.</Text>
+                            <Text style={styles.semLogin}>Começar sem login</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>

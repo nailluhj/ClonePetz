@@ -6,33 +6,40 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FAF1CA', 
-    padding: 50,
-    
+    padding: 50, 
+    paddingHorizontal: 20
   },
+
   form: {
     flex: 1,
     width: '100%',
-    maxWidth: 700,
+    //maxWidth: 700,
   },
+
   logo: {
     width: '100%',
     height: 100,
     resizeMode: 'contain',
-    marginBottom: 20,
-    marginTop:100,
+    marginBottom: 40,
+    marginTop:50,
   },
+
   input: {
     backgroundColor: 'white',
     borderRadius: 5,
     padding: 10,
     marginBottom: 10,
     color: '#DCDCDC',
-    
+    paddingHorizontal: '70%',
+    fontSize: 16,
   },
+
   helpText: {
     color: '#4682B4',
     textAlign: 'right',
-    marginBottom: 10,
+    marginBottom: 25,
+    fontSize: 15,
+    fontWeight: '500',
   },
   
   loginButton: {
@@ -40,7 +47,7 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 15,
     alignItems: 'center',
-    marginBottom: 10,
+    marginBottom: 15,
   },
 
   registerButton: {
@@ -55,22 +62,28 @@ export const styles = StyleSheet.create({
   },
 
   loginText: {
-    color: 'white', // Cor do texto para o botão de login
-    fontWeight: 'bold',
+    color: 'white', 
+    fontWeight: '400',
+    fontSize: 15,
   },
 
   registerText: {
-    color: '#4682B4', // Cor do texto para o botão de registro
-    fontWeight: 'bold',
+    color: '#4682B4',
+    fontWeight: '600',
+    fontSize: 15,
   },
+
   wave: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  ComeText: {
+
+  semLogin: {
     textAlign: 'center',
     marginTop: 20,
     color: '#4682B4',
+    fontWeight: '600',
+    fontSize: 15,
   },
 });
