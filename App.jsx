@@ -1,9 +1,9 @@
 import React from "react";
-import Login  from "./src/pages/Login/Login";
+import Home from "./src/pages/Home/Home";
 
 const App = () => {
   return (
-    <Login />
+    <Home />
   )
 };
 
