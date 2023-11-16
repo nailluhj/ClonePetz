@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         paddingTop: 30   
     },
-
+   
     text: {
         flex: 1,
         color: '#000000',
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
     },
 
     agendarButton: {
-        backgroundColor: '#4682B4',
+        backgroundColor: '#017DC5',
         borderRadius: 5,
         padding: 13,
         alignItems: 'center',
@@ -67,7 +67,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'transparent',
         borderRadius: 5,
         borderWidth: 2,
-        borderColor: '#4682B4',
+        borderColor: '#017DC5',
         padding: 10,
         alignItems: 'center',
         marginBottom: 10,

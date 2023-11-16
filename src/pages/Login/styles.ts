@@ -7,13 +7,14 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#FAF1CA', 
     padding: 50, 
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
+    width: '100%',
   },
 
   form: {
     flex: 1,
     width: '100%',
-    //maxWidth: 700,
+    justifyContent: 'center'
   },
 
   logo: {
@@ -30,12 +31,13 @@ export const styles = StyleSheet.create({
     padding: 10,
     marginBottom: 10,
     color: '#DCDCDC',
-    paddingHorizontal: '70%',
     fontSize: 16,
-  },
+    paddingHorizontal: '70%'
+
+    },
 
   helpText: {
-    color: '#4682B4',
+    color: '#017DC5',
     textAlign: 'right',
     marginBottom: 25,
     fontSize: 15,
@@ -43,7 +45,7 @@ export const styles = StyleSheet.create({
   },
   
   loginButton: {
-    backgroundColor: '#4682B4',
+    backgroundColor: '#017DC5',
     borderRadius: 5,
     padding: 15,
     alignItems: 'center',
@@ -54,7 +56,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderRadius: 5,
     borderWidth: 2,
-    borderColor: '#4682B4',
+    borderColor: '#017DC5',
     padding: 15,
     alignItems: 'center',
     marginBottom: 10,
@@ -68,7 +70,7 @@ export const styles = StyleSheet.create({
   },
 
   registerText: {
-    color: '#4682B4',
+    color: '#017DC5',
     fontWeight: '600',
     fontSize: 15,
   },
@@ -82,7 +84,7 @@ export const styles = StyleSheet.create({
   semLogin: {
     textAlign: 'center',
     marginTop: 20,
-    color: '#4682B4',
+    color: '#017DC5',
     fontWeight: '600',
     fontSize: 15,
   },
