@@ -22,8 +22,8 @@ import { styles } from './styles';
         <View style={styles.container}>
             <KeyboardAvoidingView enabled={Platform.OS === 'ios'} behavior="padding">
                 <ScrollView keyboardShouldPersistTaps="always">
-                    <View style={styles.form}>
                         <Image source={require('../../assets/Petz.png')} style={styles.logo} />
+                    <View style={styles.form}>
 
                         <TextInput
                             style={styles.input}

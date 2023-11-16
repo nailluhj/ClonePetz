@@ -6,15 +6,12 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FAF1CA', 
-    padding: 50, 
-    paddingHorizontal: 20,
-    width: '100%',
+    paddingTop: 50,  
   },
 
   form: {
-    flex: 1,
-    width: '100%',
-    justifyContent: 'center'
+    paddingHorizontal: 20,
+    width: 400,
   },
 
   logo: {
@@ -32,9 +29,8 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     color: '#DCDCDC',
     fontSize: 16,
-    paddingHorizontal: '70%'
-
-    },
+    width: '100%',
+  },
 
   helpText: {
     color: '#017DC5',
